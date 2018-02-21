@@ -37,7 +37,7 @@ Before you move a conference directory it is highly recommended that you make a 
 This can be done by using the Export-CsUserData cmdlet and the ConferenceDirectoryFilter parameter.
 For example, this command backs up conference directory 3 to the file C:\Logs\ConferenceDirectory3.zip:
 
-`Export-CsUserData -PoolFqdn "atl-cs-001.litwareinc.com" -ConferenceFilterDirectory 3 -FileName "C:\Logs\ConferenceDirectory3.zip"`
+`Export-CsUserData -PoolFqdn "atl-cs-001.litwareinc.com" -ConfDirectoryFilter 3 -FileName "C:\Logs\ConferenceDirectory3.zip"`
 
 
 
